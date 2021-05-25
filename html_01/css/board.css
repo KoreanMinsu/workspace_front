@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: "맑은 고딕", 돋움;
+    font-size: 14px;
+}
+
+#board {
+    width: 700px;
+    border: 1px solid #000000;
+}
+
+/*label{
+    width: 80px;
+    display: inline-block;
+}
+
+*/
+
+.form-txt{
+    width: 80px;
+    display: inline-block;
+}
+
+#sel-board {
+    width: 150px;
+}
+
+#txt-title {
+    width: 600px;
+}
+
+.form-group {
+    padding: 5px 5px 5px 5px;
+}
+
+#txt-pw {
+    width: 200px;
+}
+
+
+
+input[type="radio"] {
+    margin: 0px 10px 0px 0px;
+
+}
+
+input[type="checkbox"] {
+    margin: 0px 10px 0px 0px;
+}
+
+#txt-content {
+    width: 686px;
+    height: 300px;
+}
+
+.button-area {
+    
+    margin: 20px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+button{
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+}

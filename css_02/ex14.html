@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>박스모델(float)</title>
+        <style>
+            ol{
+                list-style-type: none;
+                
+            }
+            ol>li {
+                width: 120px;
+                border-right: 3px solid #000000;
+                float: left;
+                margin-right: 30px;
+                text-align: center;
+                background: #ffffff url(./img/star.jpg) no-repeat fixed center center;
+                background-size: 12px 12px;
+                padding-left: 10px;
+
+            }
+            
+            ol>li.last{
+                border-right: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>메일</li>
+            <li>뉴스</li>
+            <li>지도</li>
+            <li>트렌드</li>
+            <li class="last">쇼핑</li>
+
+        </ul>
+    </body>
+</html>
